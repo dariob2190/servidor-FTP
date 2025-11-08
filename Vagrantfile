@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.hostname = "servidorDNS"
 
-  config.vm.network "private_network", ip: "192.168.56.1"
+  config.vm.network "private_network", ip: "192.168.56.101"
 
   config.vm.synced_folder ".", "/vagrant"
 

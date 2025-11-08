@@ -11,7 +11,7 @@ zone "luisdario.test" {
 	file "/var/lib/bind/luisdario.test.dns";
 };
 
-zone "2.168.192.in-addr.arpa" {
+zone "56.168.192.in-addr.arpa" {
 	type master;
 	file "/var/lib/bind/luisdario.test.rev";
 };
