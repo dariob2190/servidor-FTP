@@ -11,7 +11,8 @@ sudo cp /vagrant/config/named.conf.options /etc/bind/named.conf.options
 sudo cp /vagrant/config/named.conf.local /etc/bind/named.conf.local
 sudo cp /vagrant/config/luisdario.test.dns /var/lib/bind/luisdario.test.dns
 sudo cp /vagrant/config/luisdario.test.rev /var/lib/bind/luisdario.test.rev
-sudo cat /vagrant/config/resolv.conf >> /etc/resolv.conf #Para no reemplazar alguna configuración lo añadimos al final del fichero
+sudo mv /etc/resolv.conf /etc/resolv.conf.backup
+sudo cp /vagrant/config/resolv.conf /etc/resolv.conf
 
 echo "Verificando sintaxis de BIND..."
 sudo named-checkconf
