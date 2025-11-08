@@ -11,6 +11,6 @@
 
 Vamos a empezar clonando nuestro anterior proyecto dns-paso-a-paso para tener una base. Hecho esto ya tendríamos un servidor DNS listo para funcionar.
 
-![Captura de la clonación del repositorio dns-paso-a-paso](.capturas/captura1.png)
+![Captura de la clonación del repositorio dns-paso-a-paso](./capturas/captura1.png)
 
 Vamos ahora a configurar el servidor
