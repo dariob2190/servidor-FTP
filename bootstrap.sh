@@ -1,4 +1,5 @@
 #!/bin/bash
+# Este bootstrap SOLO provisiona con la configuración de DNS, NO la de FTP
 set -e
 
 echo "Actualizando paquetes e instalando BIND9..."
