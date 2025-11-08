@@ -176,7 +176,7 @@ Podemos ver que podemos salir de nuestro `home` y ver todo el árbol de director
 
 Ahora vamos a conectarnos como `luis` para comprobar que **si** estamos enjaulados en su `home`:
 
-![Captura de cómo nos conectamos como maria a nuestro servidor](./capturas/captura20.png)
+![Captura de cómo nos conectamos como maria a nuestro servidor](./capturas/captura21.png)
 
 Como podemos ver, con `luis` no podemos salir de su `home` a diferencia de con `maria`.
 
@@ -249,20 +249,20 @@ sudo ss -tlpn | grep :21
 
 Y tendría que devolvernos algo tal que así:
 
-![Captura del estado del servidor](./capturas/captura21.png)
+![Captura del estado del servidor](./capturas/captura22.png)
 
 Vamos a comprobar ahora que el servidor funciona completamente usando además FTPS. Vamos a emepzar probando con `luis`
 
-![Captura de cómo nos conectamos con luis a nuestro servidor después de activar FTPS](./capturas/captura22.png)
+![Captura de cómo nos conectamos con luis a nuestro servidor después de activar FTPS](./capturas/captura23.png)
 
 Podemos ver que nos sale una gran ventana preguntandonos si queremos seguir conectandonos y confiar en el certificado, al hacerle clic en sí, ya estaremos conectados a nuestro mediante FTPS. Si probamos a descargar un fichero nos aparecerá un icono mientras descargamos estos ficheros indicando la seguridad de la conexión, además abajo de la ventana podemos ver un candado que indica que la conexión es segura.
 
-![Captura de FileZilla indicandonos que estamos conectados de forma segura](./capturas/captura23.png)
+![Captura de FileZilla indicandonos que estamos conectados de forma segura](./capturas/captura24.png)
 
 Sin embargo al intentar conectarnos como anónimo, por nuestra configuración, nuestro servidor rechazará la conexión. Tendríamos que conectarnos sin usar ese certificado que aceptamos cuando nos conectamos como `luis`
 
-![Captura de como nuestro servidor nos rechaza la conexión por intentar conectarnos como anónimo y usar FTPS](./capturas/captura24.png)
+![Captura de como nuestro servidor nos rechaza la conexión por intentar conectarnos como anónimo y usar FTPS](./capturas/captura25.png)
 
 Por último voy a conectarme como `maria` y FTPS:
 
-![Captura de como nos conectamos como maria y usamos FTPS](./capturas/captura25.png)
+![Captura de como nos conectamos como maria y usamos FTPS](./capturas/captura26.png)
