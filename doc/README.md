@@ -198,33 +198,12 @@ Ahora vamos a configurar nuestro servidor para que use el certificado y otros aj
 # FTPS
 ssl_enable=YES
 
-# Ruta del certificado y clave
-# Ruta del certificado y clave
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-rsa_private_key_file=/etc/ssl/certs/luisdario.test.key
+# Requerir SSL para usuarios locales
+force_local_data_ssl=YES
 
 # Requerir SSL para usuarios locales
 force_local_data_ssl=YES
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-rsa_private_key_file=/etc/ssl/certs/luisdario.test.key
 
-# Requerir SSL para usuarios locales
-force_local_data_ssl=YES
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-rsa_private_key_file=/etc/ssl/certs/luisdario.test.key
-
-# Requerir SSL para usuarios locales
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-rsa_private_key_file=/etc/ssl/certs/luisdario.test.key
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-# Ruta del certificado y clave
-rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
-# Ruta del certificado y clave
 # Ruta del certificado y clave
 rsa_cert_file=/etc/ssl/certs/luisdario.test.pem
 rsa_private_key_file=/etc/ssl/certs/luisdario.test.key
